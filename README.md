@@ -16,9 +16,17 @@ This project demonstrates database normalization from UNF to 3NF using a Retail 
 - Product
 - Category
 
-## Features
-- Fully normalized schema (3NF)
-- Foreign key relationships
-- Analytical SQL queries
-- Sample data insertion
+## Normalization Steps
+
+### 1NF
+Removed repeating groups and ensured atomic values.
+
+### 2NF
+Eliminated partial dependency by separating customer details.
+
+### 3NF
+Removed transitive dependency by creating Category table.
+
+## Conclusion
+The database was successfully normalized up to 3NF, reducing redundancy and improving data integrity and query performance.
 
